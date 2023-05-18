@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(0, 0%, 93%);
+}
+
+.container {
+    background-color: hsl(209, 47%, 90%);
+    padding: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.box {
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 380px;
+    margin-right: 380px;
+    border-radius: 13px;
+    height: 370px;
+    width: 240px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+    transition: all 1s;
+}
+
+.box:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(91, 9, 243, 0.23);
+}
+
+body h3 {
+    text-align: center;
+}
+
+div p {
+    text-align: center;
+    font-size: 15px;
+}
+
+div img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 21px;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+
+.img {
+    align-items: center;
+}
